@@ -199,6 +199,10 @@
   margin-left: 5vw;
 }
 
+.nav-link{
+  cursor: pointer;
+}
+
 /* .back{
   width: 300px;
   height: 300px;
@@ -213,11 +217,12 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 320px) and (max-width: 425px) {
   .cashlogo {
-    display: none;
+    display: block;
+    margin-left: -8vh;
   }
 
   .eye{
-    display: none;
+    display: block;
   }
 
   .forabsimg{
@@ -227,17 +232,28 @@
     display: none;
   }
 
-  .selected p {
+  .menuresp{
+    display: block !important;
+    color: #FFFFFF;
+  }
+
+  .selected div {
     font-size: 100px;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 75px;
   }
 
   #apptext{
-    margin-top: -86px;
+    margin-top: -95px;
+    margin-left: 104px;
   }
+
   .Hero .selected {
     align-self: center;
     display: flex;
-    width: 579px;
+    width: 100px !important;
     height: 158.875px;
     flex-direction: column;
     justify-content: center;
@@ -256,15 +272,15 @@
   .phone {
     position: absolute;
     width: 124px;
-    margin-left: 68.5vw;
+    margin-left: 41.5vw;
     height: 197.08300000000003px;
     flex-shrink: 0;
   }
 
   #star {
-    width: 410px;
+    width: 300px;
     overflow: hidden;
-    margin-top: -100px;
+    margin-top: -11px;
   }
 
   .appStore {
@@ -294,6 +310,24 @@
   .col{
     margin-top: 20px;
   }
+
+  .Hero {
+    padding-top: 132px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80px !important;
+  }
+  .footerCls {
+    padding: 3vh;
+  }
+  .hero-section {
+    height: 1133px !important;
+    flex-shrink: 0;
+    background: #000;
+    z-index: 1;
+  }
   
 }
 
@@ -301,11 +335,21 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 425px) and (max-width: 768px) {
   .cashlogo {
-    display: none;
+    display: block;
   }
 
   .eye{
-    display: none;
+    display: block;
+  }
+
+  .menuresp{
+    display: block !important;
+    color: #FFFFFF;
+  }
+
+  .hero-section {
+    height: 1195px;
+    background: #000;
   }
 
   #star {
@@ -332,7 +376,7 @@
     margin-left: 35px;
   }
 
-  .selected p{
+  .selected div{
     font-size: larger;
   }
 
@@ -409,9 +453,19 @@
   }
   #star {
     width: 686px;
+    height: -moz-fit-content;
     height: fit-content;
     margin-left: 10vw;
     overflow-x: hidden;
+    margin-top: 45vh;
+  }
+  .intro-stairs-1 {
+    position: absolute;
+    width: 113px;
+    height: 91px;
+    flex-shrink: 0;
+    margin-left: 77vw;
+    margin-top: 7px;
   }
 }
 
@@ -441,7 +495,7 @@
     position: absolute;
     width: 280px;
     height: 35%;
-    margin-top: 96vh;
+    margin-top: 59vh;
     margin-left: 64vw;
   }
   #star {
@@ -449,6 +503,10 @@
     height: fit-content;
     margin-left: 2vw;
     overflow-x: hidden;
+  }
+  .hero-section {
+    height: 836px;
+    background: #000;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -471,6 +529,12 @@
   .intro-pillar{
     height: 30%;
     margin-top: 56vh;
+  }
+  .menu {
+    padding: 2vw;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -496,4 +560,18 @@
     margin-top: 50vh;
     margin-left: 158px;
   }
+  .Hero {
+    padding-top: -22px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+  }
+  .menu {
+    padding: 0vw;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
 }

@@ -12,9 +12,9 @@ const MainContent = () => {
         </div>
         <div className="Hero">
             <div class="selected">
-                <p>CASH</p>
+                <div>CASH</div>
                 <img className="phone" src="https://s3-alpha-sig.figma.com/img/8d46/5b02/4c6355058dc37af6efb4a5847d5e81cc?Expires=1691971200&Signature=j5SHOA4lwwMGR7xSxQqJoR29XEvGMuXmLf~ufwM5j4161bvSUiUPQD2vzXxwqAxeWI5bzU8SOJAf-TWXYoro08GtgELsCA6ye65hl6xtoXqK6aO3TOlEpXwT8UEMrNZd6xhnOmfVWGb0OZK9cx8npCJfGFovHFXHdSYfN9B9Pk0iPxBPvL1bM1jBusRWrITrRGnnqbyZBpJ4o66VgbISi50YC2-lG3M8bU-RmQjn3PM01SgO7WlhqbV0Rpxga3CfPRorL8VgtUxq2dOHoAaPDt0YA5G8XAUocZKHoJcQqzToKczFJ~K5z7e7cKAEQmbU-9CmK1IzCW7ts6aGxyT~Ng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" srcset="" />
-                <p id="apptext">APP</p>
+                <div id="apptext">APP</div>
             </div>
         </div>
         </>

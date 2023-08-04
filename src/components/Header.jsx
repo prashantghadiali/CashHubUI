@@ -30,6 +30,48 @@ const Header = () => {
                     </svg>
                 </div>
             </div>
+            <div className="menuresp" style={{display:'none'}}>
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item active">
+                                <a className="nav-link" href="#">Sign In</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Legal</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Licenses</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Security</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Security</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Careers</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Press</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Support</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Status</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Codeblog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </nav>
+            </div>
         </>
     )
 }
