@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![image](https://github.com/prashantghadiali/CashHubUI/assets/120317562/f5038593-a49b-465e-b416-9afabb459f8e)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
