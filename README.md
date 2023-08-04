@@ -1,8 +1,17 @@
 # Getting Started with Create React App
 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+full screen
 ![image](https://github.com/prashantghadiali/CashHubUI/assets/120317562/f5038593-a49b-465e-b416-9afabb459f8e)
+
+Tablet View
+![Screenshot 2023-08-04 201750](https://github.com/prashantghadiali/CashHubUI/assets/120317562/d11a6ec7-4808-4954-996c-af5bc2322139)
+
+
+mobile view
+![Screenshot 2023-08-04 201657](https://github.com/prashantghadiali/CashHubUI/assets/120317562/42d4d73f-f8d6-463e-a99c-56a132c1e282)
 
 
 ## Available Scripts
