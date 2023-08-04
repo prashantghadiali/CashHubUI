@@ -26,6 +26,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Screenshot 2023-08-04 201657](https://github.com/prashantghadiali/CashHubUI/assets/120317562/42d4d73f-f8d6-463e-a99c-56a132c1e282)
 
 
+
+## Menu Items
+![image](https://github.com/prashantghadiali/CashHubUI/assets/120317562/3b5736f0-472e-404e-8e4c-5a98ffbfdb43)
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
